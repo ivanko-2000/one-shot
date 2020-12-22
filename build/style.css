@@ -1,0 +1,73 @@
+#container {
+  height: 100%;
+  background-size: 100% 100%;
+  background-image: url("../resource/blBackground.png");
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Montserrat-regular";
+  font-size: x-large;
+}
+
+#game {
+  align-items: flex-end;
+}
+
+/* .right-vend {
+
+    left: 50px;
+} */
+/* .left-vend,
+.right-vend,
+.left-shadow,
+.right-shadow
+
+ */
+#grLeftIm {
+  z-index: 1;
+  align-self: flex-start;
+  padding-left: 20%;
+  margin-top: -25%;
+  height: 125%;
+}
+
+.left-shadow,
+.right-shadow {
+  margin-top: -35px;
+}
+
+#top-caption, .caption {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+  /* isolation: isolate; */
+  color: linear-gradient(to top, red, blue);
+  /*  mix-blend-mode: lighten; */
+  /*   text-shadow:
+         2px 2px 20px rgba(255, 255, 255, 0.4),
+         -2px 2px 20px rgba(255, 255, 255, 0.4),
+         2px -2px 20px rgba(255, 255, 255, 0.4),
+         -2px -2px 20px rgba(255, 255, 255, 0.4),
+  */
+}
+
+#top-caption {
+  letter-spacing: 5px;
+}
+
+.caption {
+  z-index: 2;
+  margin: -150px 50px;
+}
+
+#row-1 {
+  height: 20%;
+}
+
+#row-2 {
+  height: 80%;
+}
+
+/*# sourceMappingURL=style.css.map */

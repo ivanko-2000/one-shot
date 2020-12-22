@@ -1,0 +1,13 @@
+.container-fluid{
+    padding: 0 8%;
+}
+body{
+    background-color: gray;
+    color:white
+}
+button{
+    background-color: #dddddd00;
+    background-image: url("../resource/bar/shape.svg");
+    border-radius: 0;
+
+}
