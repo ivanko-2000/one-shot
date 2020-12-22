@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Versatile';
+    src: local('Versatile Outline Bold'), local('Versatile-Outline-Bold'),
+        url('VersatileOutline-Bold.woff2') format('woff2'),
+        url('VersatileOutline-Bold.woff') format('woff'),
+        url('VersatileOutline-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
